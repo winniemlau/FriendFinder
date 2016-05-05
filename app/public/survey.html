@@ -179,28 +179,7 @@
             var inputNums = Number(inputScore[i]);
             newUserArr.push(inputNums);
           };
-          var inputSum = inputArr.reduce(add, 0);
-          function add(a, b) {
-            return a + b;
-          };
-          var yourMatch = [];
-          for (x in data) {
-            var r = [];
-            for (i in data[x].scores) {
-              var nums = Number(data[x].scores[i]);
-              r.push(nums);
-            }
-            var sum = r.reduce(add, 0);
-            function add(a, b) {
-              return a + b;
-            }
-            if (Math.abs(inputSum - sum) <= 6) {
-              yourMatch.push(data[x]);
-              data.push(newFriend);
-            }
-            else{
-              data.push(newFriend);
-            }
+
           };
           function showMatch(){
             var name = JSON.stringify(yourMatch[0].name);
