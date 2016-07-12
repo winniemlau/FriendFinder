@@ -21,8 +21,7 @@
 
 * The survey consists of 10 questions. Answers to the survey questions should be on a scale of 1-5 based on how much the user agrees or disagrees.
 * Data in the application should be saved as an array of objects.
-
-*Compatibility should be determined based on the following:
+* Compatibility should be determined based on the following:
 1. Each user's results should be converted into a simple array of numbers (ex: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]).
 2. There will be a difference between the user's scores against other users' scores, question by question. App will add up the differences to calculate the totalDifference.
 Example:
