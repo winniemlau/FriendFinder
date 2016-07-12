@@ -1,20 +1,103 @@
-var friendsArray = [
+// DATA
+var friends = [
+   {
+      "name":"Leo",
+      "photo":"http://thecutest.org/wp-content/uploads/2016/04/french-bulldog-1.jpg",
+      "scores":[
+         "5",
+         "1",
+         "4",
+         "4",
+         "5",
+         "1",
+         "2",
+         "5",
+         "4",
+         "1"
+      ]
+   },
+   {
+      "name":"Atticus",
+      "photo":"https://s-media-cache-ak0.pinimg.com/236x/e3/ac/b0/e3acb03a5d9cb8bb1cba821fe7b86de5.jpg",
+      "scores":[
+         "4",
+         "2",
+         "5",
+         "1",
+         "3",
+         "2",
+         "2",
+         "1",
+         "3",
+         "2"
+      ]
+   },
+   {
+      "name":"Lucky",
+      "photo":"http://www.golden-retriever.com/wp-content/uploads/2015/06/cute-golden-retriever-happy-puppies.jpg",
+      "scores":[
+         "5",
+         "2",
+         "2",
+         "2",
+         "4",
+         "1",
+         "3",
+         "2",
+         "5",
+         "5"
+      ]
+   },
+   {
+      "name":"Greyson",
+      "photo":"https://s-media-cache-ak0.pinimg.com/736x/cc/3c/2f/cc3c2f2a2a56c2344038659c78fb7044.jpg",
+      "scores":[
+         "3",
+         "3",
+         "4",
+         "2",
+         "2",
+         "1",
+         "3",
+         "2",
+         "2",
+         "3"
+      ]
+   },
 	{
-    "name":"Pooh",
-    "photo":"http://vignette1.wikia.nocookie.net/fictionalcrossover/images/0/03/A_winnie_the_pooh.png",
-    "scores":[
-       5,
-       1,
-       4,
-       4,
-       5,
-       1,
-       2,
-       5,
-       4,
-       1
-    ]
-
+	   "name":"Buttercup",
+	   "photo":"http://megamascota.hiperarticulos.com/wp-content/uploads/2014/07/Poodle-Tea-Cup-1.jpg",
+	   "scores":[
+	      "4",
+	      "3",
+	      "4",
+	      "1",
+	      "5",
+	      "2",
+	      "5",
+	      "3",
+	      "1",
+	      "4"
+	   ]
+	},
+	{
+	   "name":"Nana",
+	   "photo":"http://www.petmd.com/sites/default/files/breedopedia/scottish_fold2.jpg",
+	   "scores":[
+	      "4",
+	      "4",
+	      "2",
+	      "3",
+	      "2",
+	      "2",
+	      "3",
+	      "2",
+	      "4",
+	      "5"
+	   ]
 	}
-];
-module.exports = friendsArray;
+
+]
+
+// Here we export the array. This makes it accessible to other files using require.
+module.exports = friends;
