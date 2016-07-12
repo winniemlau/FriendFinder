@@ -1,6 +1,8 @@
 #Week 13 Assignment
 ##Friend Finder
 
+![alt tag](https://github.com/winniemlau/friendFinder/blob/master/app/assets/images/screenshot.png)
+
 ###Objective
 
 * Build a compatibility-based "Friend Finder" application. (Basically a dating app)
