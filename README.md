@@ -32,7 +32,3 @@ User 2: [3, 2, 6, 4, 5, 1, 2, 5, 4, 1]
 Total Difference: 2 + 1 + 2 = 5
 * Once the closest match has been determined, it will display in the form of a modal pop-up.
 * The result should display both the name and picture of the closest match.
-
-###Deployed App
-
-Heroku:
